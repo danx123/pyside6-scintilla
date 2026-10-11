@@ -19,7 +19,7 @@ jobs:
         if: runner.os == 'Windows'
         uses: jurplel/install-qt-action@v4
         with:
-          version: "6.11.1"
+          version: "6.12"
           modules: qt5compat
           # aqtinstall 3.3.* can't locate Qt 6.11+ on Windows - the online
           # repo dropped the combined qt6_XXXX/qt6_XXXX/Updates.xml in favor
